@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/cat_logo_site.png" />
+    <title>Lourany Menezes</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Um teste -->
+    <div class="hero-section">
+      <a href="#conteudo" class="scroll-down">
+        <img src="./img/down_arrow.png" alt="Descer" />
+      </a>
+    </div>
+    
+
+    <!-- Um teste -->
+    <div id="conteudo" class="container">
+      <div class="container_links">
+        <section class="sobre">
+          <div class="container_decoracao">
+            <div class="icone_decorativo"></div>
+            <div class="decoracao"></div>
+          </div>
+          <div class="img_profissional">
+            <div class="icone_decorativo"></div>
+            <h2>Lourany Menezes</h2>
+          </div>
+        </section>
+        <div class="links">
+          <section class="secao_links_uteis">
+            <a href="https://github.com/loupmz/links.git"
+              ><div class="img_link" id="link1">
+                <p>Site de links</p>
+              </div></a
+            >
+            <a href=""
+              ><div class="img_link" id="link2">
+                <p>Relógio digital</p>
+              </div></a
+            >
+          </section>
+          <section class="redes_sociais">
+            <a href="https://www.instagram.com/loupmz/"
+              ><img src="./img/logo_instagram.png" alt=""
+            /></a>
+            <a href="https://www.linkedin.com/in/lourany-menezes-329bbb274/"
+              ><img src="./img/logo_linkedin.png" alt=""
+            /></a>
+            <a href="https://github.com/loupmz"
+              ><img src="./img/logo_github.png" alt=""
+            /></a>
+            <a href="mailto:lourany10@gmail.com"
+              ><img src="./img/logo_email.png" alt=""
+            /></a>
+          </section>
+        </div>
+      </div>
+      <div class="box_form">
+        <section class="cont_form">
+          <form
+            action="https://formsubmit.co/lourany10@gmail.com"
+            method="POST"
+          >
+            <p>Entre em contato comigo</p>
+            <input type="text" name="name" placeholder="nome" required />
+            <input type="email" name="email" placeholder="email" required />
+            <select name="select" id="opcoes">
+              <option value="proposta de emprego ou estagio">
+                sobre proposta de emprego ou estágio
+              </option>
+              <option value="freela">sobre freela</option>
+              <option value="outro">outro</option>
+            </select>
+            <textarea name="message" placeholder="mensagem"></textarea>
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <button type="submit">Enviar</button>
+          </form>
+
+          <p id="confirmation-message" class="confirmation-message">
+            Obrigada pelo contato!! Em breve retornarei.
+          </p>
+        </section>
+        <span>Desenvolvido por Lourany Menezes</span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
