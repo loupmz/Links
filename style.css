@@ -28,6 +28,13 @@ html {
   background: url("./img/painel_mario.jpg") center/cover no-repeat;
 }
 
+@media (max-width: 768px) {
+  .hero-section {
+    background-position: center top; 
+    height: 80vh;
+  }
+}
+
 .hero-section .scroll-down {
   position: absolute;
   bottom: 5%;
